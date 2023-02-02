@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 body {
@@ -153,7 +154,7 @@ header img {
 
 
 .project-header, .projectContent p, .project-skills {
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .project-skills {
@@ -166,8 +167,34 @@ header img {
     background-color: #303030;
     border-radius: 22px;
     padding: 10px;
-    margin: 3px 0;
+    margin: 5px 2px 0 0;
 }
 
 /* Contact */
+
+footer input {
+    margin: 0 0 10px 0;
+}
+
+#email, #message {
+    width: 100%;
+}
+
+#message {
+    height: 100px;
+}
+
+#contact-submit {
+    background-color:#282828;
+    color: #f2c95a;
+    border: none;
+    text-align: center;
+}
+
+#contact-submit:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
 
