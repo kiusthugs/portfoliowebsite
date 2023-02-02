@@ -11,6 +11,7 @@ body {
 }
 
 main {
+    padding-top: 80px;
     margin: 20px;
 }
 
@@ -47,6 +48,11 @@ nav {
     justify-content: flex-start;
     align-items: center;
     padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
 }
 
 nav a div {
@@ -70,6 +76,7 @@ header img {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-top: 10px;
     padding: 15px 20px;
     background-color:#3e3e3e;
     border-radius: 5px;
@@ -95,13 +102,10 @@ header img {
     margin-right: 8px;
 }
 
-#credential-links a{
-}
-
 .credential-container {
     width: 100%;
     background-color:#3e3e3e;
-    margin: 15px 0;
+    margin: 15px 0 0 0;
     padding: 15px;
     text-align: center;
     font-weight: bold;
@@ -120,6 +124,10 @@ header img {
     border: 1px solid #f2c95a;
     border-radius: 30px;
     padding: 8px;
+}
+
+#knowledgeSkills, #experience {
+    padding-top: 50px;
 }
 
 /* Projects */
