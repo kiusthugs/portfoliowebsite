@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282828;
+    color: #e1e1e1;
+    font-family: 'Fira Sans', sans-serif;
+    max-width: 390px;
+    margin: 0;
+}
+
+main {
+    margin: 25px;
+}
+
+#kppic {
+    border-radius: 50%;
+}
+
+#personal-email {
+    text-decoration: underline;
+    color: #f2c95a;
+}
+
+.section-underline {
+    width: 100px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: #f2c95a;
+}
+
+a {
+    text-decoration: none;
+    color: #e1e1e1;
+}
+
+#credential-links a, .project-skills{
+    color: #f2c95a;
+}
+
+/* NavBar Header */
+
+nav {
+    background-color: #161616;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+}
+
+nav a div {
+    height: 70px;
+    width: 70px;
+    background-color: #282828;
+    margin-right: 15px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header img {
+    margin-top: 40px;
+}
+
+/* About */
+
+#info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px 20px;
+    background-color:#3e3e3e;
+    border-radius: 5px;
+}
+
+#info-card span {
+    margin: 5px;
+}
+
+#info-card i {
+    margin-right: 10px;
+}
+
+#info-name {
+    font-weight: 900;
+}
+
+#info-title {
+    font-style: italic;
+}
+
+#info-title i{
+    margin-right: 8px;
+}
+
+#credential-links a{
+}
+
+.credential-container {
+    width: 100%;
+    background-color:#3e3e3e;
+    margin: 15px 0;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Skills */
+
+#skills-flex {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skills-flex span {
+    border: 1px solid #f2c95a;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+/* Projects */
+
+.project-section img{
+    width: 350px;
+    height: 225px;
+}
+
+#projects-div {
+    margin-top: 20px;
+}
