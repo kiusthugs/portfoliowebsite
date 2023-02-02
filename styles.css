@@ -132,3 +132,15 @@ header img {
 #projects-div {
     margin-top: 20px;
 }
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-github:hover {
+    color: #f2c95a;
+}
+
+
