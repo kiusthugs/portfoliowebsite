@@ -24,6 +24,10 @@ main {
     color: #f2c95a;
 }
 
+#personal-email:hover {
+    color: white;
+}
+
 .section-underline {
     width: 100px;
     height: 2px;
@@ -55,6 +59,10 @@ nav {
     z-index: 999;
 }
 
+.nav-div:hover {
+    color: #f2c95a;
+}
+
 nav a div {
     height: 70px;
     width: 70px;
@@ -64,6 +72,7 @@ nav a div {
     text-align: center;
     flex-direction: column;
     justify-content: space-evenly;
+    border-radius: 5px;
 }
 
 header img {
@@ -109,12 +118,17 @@ header img {
     padding: 15px;
     text-align: center;
     font-weight: bold;
+    border-radius: 5px;
+}
+
+.credential-container:hover {
+    color: white;
 }
 
 /* Skills */
 
 #skills-flex {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,7 +154,7 @@ header img {
 }
 
 #projects-div {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .project-header {
@@ -184,25 +198,92 @@ footer input {
     margin: 0 0 10px 0;
 }
 
-#email, #message {
-    width: 100%;
-}
-
-#message {
-    height: 100px;
-}
-
-#contact-submit {
-    background-color:#282828;
-    color: #f2c95a;
-    border: none;
+#email-contact {
+    background-color: #3e3e3e;
     text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
 }
 
-#contact-submit:hover {
+#email-contact:hover {
+    transform: scale(1.1); 
+}
+
+#email-contact a {
+    color: #f2c95a;
+}
+
+#email-contact a:hover {
     color: white;
-    cursor: pointer;
+}
+
+@media screen and (min-width: 550px) {
+    .project-section img{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    nav {
+        width: 110px;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        display: block;
+    }
+
+    nav a div {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    main {
+        padding-left: 110px;
+        padding-top: 0px;
+        margin: 25px;
+    }
+
+    #personal-info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #info-card {
+        margin-right: 110px;
+        margin-left: 30px;
+        min-width: 300px;
+        height: 150px;
+        padding: 10px;
+    }
+
+    #credential-links {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #credential-links a {
+        margin-right: 20px;
+    }
+
+    #skills-flex {
+        justify-content: space-around;
+    }
+
+    .project-section img{
+        height: 350px;
+    }
 }
 
 
-
+@media screen and (min-width: 950px) {
+    #max-container {
+        width: 90%;
+        padding-left: 110px;
+    }
+}

@@ -14,19 +14,24 @@
   </head>
   <body>
     <nav>
+        <!-- <div id="nav-id"> -->
         <a href="#about"><div class="nav-div"><i class="navItem_iconContainer_icon far fa-user"></i> About</div></a>
         <a href="#knowledgeSkills"><div class="nav-div"><i class="navItem_iconContainer_icon far fa-code"></i> Skills</div></a>
         <a href="#experience"><div class="nav-div"><i class="navItem_iconContainer_icon far fa-desktop"></i> Projects</div></a>
+        <!-- </div> -->
     </nav>
     <main>
+    <div id="max-container">
     <header>
         <h1 id="about">About Me</h1>
         <div class="section-underline"></div>
-        <img src="images/kppiccrop.jpg" alt="picture of kirt" width="200" height="200" id="kppic">
+        <div id="personal-info">
+            <img src="images/kppiccrop.jpg" alt="picture of kirt" width="200" height="200" id="kppic">
         <div id="info-card">
             <span id="info-name"><i class="fas fa-user"></i>Kirt Perez</span>
             <span id="info-title"><i class="fas fa-desktop"></i>Front End/ Web Developer</span>
             <span><i class="far fa-at"></i><a href="mailto:kirtperez3245@gmail.com" id="personal-email">kirtperez3245@gmail.com</a></span>
+        </div>
         </div>
         <p>Hi! I'm a Web Developer based in Las Vegas Nevada. I'm a driven and motivated individual with a passion for web development.</p>
             
@@ -148,16 +153,23 @@
     </div>
     <footer>
     <div class="contact">
-        <h1>Contact Me</h1>
-        <form action="https://formsubmit.co/kirtperez3245@gmail.com" method="POST">
-            <input type="hidden" name="_subjuect" value="Portfolio Job Inquiry">
+        <h1>Get in Touch</h1>
+        <p>Psst... We can also talk about Football, Golf, Video games, and all things about Weight Lifting. I've recently been getting into baseball too!</p>
+        <div id="email-contact">
+            <a href="mailto:kirtperez3245@gmail.com">
+                Send a message
+            </a>
+        </div>
+        <!-- <form action="https://formsubmit.co/kirtperez3245@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Portfolio Job Inquiry">
             <input type="email" name="email" id="email" placeholder="Email" required>
             <input type="hidden" name="_next" value="">
             <textarea type="text" name="message" id="message" placeholder="Psst... We can also talk about Football, Golf, Video games, and all things about Weight Lifting. I've recently been getting into baseball too!" required></textarea>
             <button type="submit" id="contact-submit">Send Message</button>
-       </form>
+       </form> -->
     </div>
     </footer>
+    </div>
     </main>
 	<script src="app.js"></script>
   </body>
